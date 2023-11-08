@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header{
+    background-color: lightgrey;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+header h2{
+    text-align: left;
+    font-size: 30px;
+    top: 10px;
+    width: 110%;
+    color: white;
+    background-color:#00008B;
+    margin: 0ch;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-left: 30px;
+}
+
+header nav button {
+    position: relative;
+    font-size: 22px;
+    background-color: lightgrey;
+    border-style: none;
+    margin-right: 25px;
+}
+
+nav{
+    border-bottom: 2px solid lightslategrey;
+}
+
