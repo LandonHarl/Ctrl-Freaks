@@ -1,21 +1,40 @@
 body{
-    background-color: magenta;
-    border-color: #ff0000;
-    border: 5px ;
-    animation: blinkBorder 2s infinite;
-    margin: auto;
-    width: 640px; 
-    padding: 50px;
-}
+       background-color: magenta;
+       border-color: #ff0000;
+       border: 5px ;
+       animation: blinkBorder 2s infinite;
+       margin: auto;
+       width: 640px; 
+       padding: 50px;
+       border-style: dotted;
+       @keyframes blink {
+        0% {
+          border-color: transparent;
+        }
+        50% {
+          border-color: #000; 
+        }
+        100% {
+          border-color: transparent;
+        }
+       }
+      .blinking-border {
+        border: 2px dotted transparent; 
+        animation: blink 1s infinite;
+       }
+   }
 header{
     align-items: center;
     text-align:center ;
     font-size: 60px;
-    color: brown;
-.header-container{
+    color: greenyellow;
+    border-style: dotted;
+    border-color: rgb(255, 0, 4);
+     }
+    .header-container{
     display:flex;
-}
-}
+
+     }
 h1,h2{
     flex-basis: 50%;
     display: inline-block;
@@ -72,10 +91,21 @@ div {
     align-items: center;
     text-align:center ;
     font-size: 60px;
-    color: brown;
+    color: yellowgreen;
+    border-style: dotted;
   }
   p{
     color: aqua;
   }
- 
- 
+ @keyframes rotate{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360);
+    }
+ }
+ .rotate{
+    animation-name:rotate;
+    animation-timing-function: linear;
+ }
