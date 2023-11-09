@@ -36,5 +36,31 @@ header nav button {
 
 nav{
     border-bottom: 2px solid lightslategrey;
+    margin-bottom: -10px;
 }
 
+#row{
+    display: flex;
+    border-bottom: 2px solid darkgrey;
+}
+
+#col1{
+    flex: -10%;
+    margin-top: 9px;    
+}
+#col2{
+    flex: 70%;
+    margin: 10px;
+    margin-top: 20px;
+    border: 2px solid darkgrey;
+}
+
+#URL{
+    padding: 10px;
+    width: 100%;
+}
+
+::-webkit-input-placeholder{
+    font-size: 20px;
+    color: black;
+}
