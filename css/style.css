@@ -39,7 +39,7 @@ nav{
     margin-bottom: -10px;
 }
 
-#row{
+#row1{
     display: flex;
     border-bottom: 2px solid darkgrey;
 }
@@ -63,4 +63,14 @@ nav{
 ::-webkit-input-placeholder{
     font-size: 20px;
     color: black;
+}
+
+.profile-img{
+    width: 100px;
+    border-radius: 10px;    
+    position: center;
+    width: 16%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
 }
