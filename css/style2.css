@@ -1,5 +1,6 @@
 body{
        background-color: magenta;
+       
        border-color: #ff0000;
        border: 5px ;
        animation: blinkBorder 2s infinite;
@@ -35,7 +36,7 @@ header{
     display:flex;
 
      }
-h1,h2{
+     .butten1,.butten2{
     flex-basis: 50%;
     display: inline-block;
     margin-right: 30;
@@ -43,8 +44,10 @@ h1,h2{
     font-size:25px;
     text-align:center ;
     align-items: center;
+    display: flex;
+    margin-bottom: 1px;
 }
-h3,h4,h5{
+.butten3,.butten4{
     margin-left: 30;
     margin-top: 30;
     margin-right: 30;
@@ -56,6 +59,7 @@ h3,h4,h5{
     font-size: 25px;
     text-align:center ;
     align-items: center;
+    color:red;
 }
 
 div > h1,h3,h5 {
@@ -73,11 +77,7 @@ div > h1,h3,h5 {
     display: inline-block;
     margin-right:60px;
 }
-h1,h2{
-    display: flex;
-    margin-bottom: 1px;
 
-}
 div {
     column-count: 2;
     column-fill: balance;
@@ -93,9 +93,16 @@ div {
     font-size: 60px;
     color: yellowgreen;
     border-style: dotted;
+    border-radius: 60em;
+    
+  }
+  p1{
+    color: aqua;
+
   }
   p{
-    color: aqua;
+    color: #ff0000;
+    font-size: xx-large;
   }
  @keyframes rotate{
     from{
@@ -109,3 +116,25 @@ div {
     animation-name:rotate;
     animation-timing-function: linear;
  }
+ form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+input[type="radio"] {
+  align-self: start;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-between;
+}
+.my-button{
+  color:red;
+  font-size: 45;
+}
+
+ 

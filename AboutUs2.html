@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Project</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+      .blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+     
+    </style>
+    
+</head>
+<body  >
+    <Header> <span class="blink"><marquee>CTRL Freaks</marquee></span></Header>
+    
+    <div>
+      <button type="button">  <span class="blink">WebSite-Names:</span></button>
+      
+       <li>Kubrom W.</li>
+       <li>Brandon Dennis</li>
+       <li>Landon Harl</li>
+       <li>Claire Jaeger </li>
+       <button type="button" ><span class="blink">Game-Names:</span></button>
+       <li>Brenton Coyle</li>
+       <li>Bret Shepard</li>
+       <li>David Thomas</li>
+       <br>
+      <button type="button"> <span class="blink">Language-Used: </span></button>
+        <li>html,css,javascript</li>
+        <li>PHP</li>
+        <li>C#</li>
+        <button type="button"> <span class="blink">Ide-Used:</span></button>
+        <li>Visual Studio:</li>
+        <li>Visual Studio Code:</li>
+    </div>
+    
+     <h5 class="animate rotate animate--fast" ><marquee>Project Description: </marquee></h5>
+     <P1>Our project combines game development and web design to create an old-time game with a classic website.The aim is to 
+        provide users with a nostalgic gaming experience and an interactive platform for giving feedback. The website features 
+        a live chat function powered by XAMPP to facilitate user feedback on both web and game-related aspects.
+     </P1>
+     <p>© Copyright, CTRLFREAKS</p> 
+</body>
+</html>
