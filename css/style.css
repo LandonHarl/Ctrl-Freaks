@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -11,18 +12,19 @@ header{
 
 body{
     background-color: lightgrey;
+    margin: 0;
 }
 
 header h2{
     text-align: left;
     font-size: 30px;
     top: 10px;
-    width: 110%;
+    width: 100%;
     color: white;
-    background-color:#00008B;
+    background-color:#1c39bb;
     margin: 0ch;
-    margin-top: -10px;
-    margin-left: -10px;
+    margin-top: 0;
+    padding-bottom: 3px;
     padding-left: 30px;
 }
 
@@ -65,12 +67,32 @@ nav{
     color: black;
 }
 
-.profile-img{
-    width: 100px;
-    border-radius: 10px;    
-    position: center;
-    width: 16%;
-    border-width: 5px;
+#profile-img{
+    margin: 40px 30px 0px 40px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    /* background-image: ; */
     border-style: solid;
-    border-color: red;
+    border-color: black;
+    background: linear-gradient(rgba(0, 0, 205, 0.5), rgba(205, 20, 147, 0.5)) no-repeat,
+        url(../images/title_backgound.jpg) no-repeat;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 2px black;
+    font-family: Pixelify Sans;
 }
