@@ -1,0 +1,140 @@
+body{
+       background-color: magenta;
+       
+       border-color: #ff0000;
+       border: 5px ;
+       animation: blinkBorder 2s infinite;
+       margin: auto;
+       width: 640px; 
+       padding: 50px;
+       border-style: dotted;
+       @keyframes blink {
+        0% {
+          border-color: transparent;
+        }
+        50% {
+          border-color: #000; 
+        }
+        100% {
+          border-color: transparent;
+        }
+       }
+      .blinking-border {
+        border: 2px dotted transparent; 
+        animation: blink 1s infinite;
+       }
+   }
+header{
+    align-items: center;
+    text-align:center ;
+    font-size: 60px;
+    color: greenyellow;
+    border-style: dotted;
+    border-color: rgb(255, 0, 4);
+     }
+    .header-container{
+    display:flex;
+
+     }
+     .butten1,.butten2{
+    flex-basis: 50%;
+    display: inline-block;
+    margin-right: 30;
+    padding-right: 200px;
+    font-size:25px;
+    text-align:center ;
+    align-items: center;
+    display: flex;
+    margin-bottom: 1px;
+}
+.butten3,.butten4{
+    margin-left: 30;
+    margin-top: 30;
+    margin-right: 30;
+    margin-bottom: 30;
+    flex-basis: 50%;
+    display: inline-block;
+    margin-bottom: 1px;
+    padding-right: 200px;
+    font-size: 25px;
+    text-align:center ;
+    align-items: center;
+    color:red;
+}
+
+div > h1,h3,h5 {
+    text-align: center;
+    margin-bottom: 1px;
+}
+.center-text h1,h2 {
+    text-align: center;
+}
+.side-by-side li {
+    display: inline; 
+    margin-right: 650px; 
+}
+.side-by-side h1, .side-by-side h2 {
+    display: inline-block;
+    margin-right:60px;
+}
+
+div {
+    column-count: 2;
+    column-fill: balance;
+  }
+  li{
+    color:greenyellow;
+
+  }
+  h5{
+    margin-bottom: 1px;
+    align-items: center;
+    text-align:center ;
+    font-size: 60px;
+    color: yellowgreen;
+    border-style: dotted;
+    border-radius: 60em;
+    
+  }
+  p1{
+    color: aqua;
+
+  }
+  p{
+    color: #ff0000;
+    font-size: xx-large;
+  }
+ @keyframes rotate{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360);
+    }
+ }
+ .rotate{
+    animation-name:rotate;
+    animation-timing-function: linear;
+ }
+ form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+input[type="radio"] {
+  align-self: start;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-between;
+}
+.my-button{
+  color:red;
+  font-size: 45;
+}
+
+ 

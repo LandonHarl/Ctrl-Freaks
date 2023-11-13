@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header{
+    background-color: lightgrey;
+}
+
+body{
+    background-color: lightgrey;
+    margin: 0;
+}
+
+header h2{
+    text-align: left;
+    font-size: 30px;
+    top: 10px;
+    width: 100%;
+    color: white;
+    background-color:#1c39bb;
+    margin: 0ch;
+    margin-top: 0;
+    padding-bottom: 3px;
+    padding-left: 30px;
+}
+
+header nav button {
+    position: relative;
+    font-size: 22px;
+    background-color: lightgrey;
+    border-style: none;
+    margin-right: 25px;
+}
+
+nav{
+    border-bottom: 2px solid lightslategrey;
+    margin-bottom: -10px;
+}
+
+#row1{
+    display: flex;
+    border-bottom: 2px solid darkgrey;
+}
+
+#col1{
+    flex: -10%;
+    margin-top: 9px;    
+}
+#col2{
+    flex: 70%;
+    margin: 10px;
+    margin-top: 20px;
+    border: 2px solid darkgrey;
+}
+
+#URL{
+    padding: 10px;
+    width: 100%;
+}
+
+::-webkit-input-placeholder{
+    font-size: 20px;
+    color: black;
+}
+
+#profile-img{
+    margin: 40px 30px 0px 40px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    /* background-image: ; */
+    border-style: solid;
+    border-color: black;
+    background: linear-gradient(rgba(0, 0, 205, 0.5), rgba(205, 20, 147, 0.5)) no-repeat,
+        url(../images/title_backgound.jpg) no-repeat;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 2px black;
+    font-family: Pixelify Sans;
+}
